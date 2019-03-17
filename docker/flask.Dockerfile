@@ -12,4 +12,4 @@ RUN pip install -r requirements.txt
 
 COPY flask_app $APP
 
-CMD [ "python", "$APP/app.py", "app.ini" ]
+CMD [ "python", "app/app.py" ]
